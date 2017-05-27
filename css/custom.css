@@ -1,0 +1,110 @@
+*{margin:0;outline:0;padding:0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+body {line-height: 1.5;font-family: 'Open Sans', sans-serif;font-size: 18px;color: #ffffff;background: #fff;}
+a{text-decoration: none;color: #15151c;}
+img {width: 100%; display: table;}
+
+.hidden {display: none !important;}
+.left { float: left;}
+.right {float: right;}
+.row {margin-right:-10px;margin-left: -10px;}
+.container {max-width:1000px; width:100%; margin:0 auto;position: relative;}
+.clearfix:after, .clearfix:before {content:'';display: table;line-height: 0;clear:both;}
+[class*="span"] {min-height:1px;float:left;position:relative;padding:0 5px;margin-bottom: 10px;}
+.span12 {width:100%;float: none;}
+.span11 {width:91.6666%;}
+.span10 {width:83.3333%;}
+.span9 {width:75%;}
+.span8 {width:66.6666%;}
+.span7 {width:58.3333%;}
+.span6 {width:50%;}
+.span5 {width:41.6666%;}
+.span4 {width:33.3333%;}
+.span3 {width:25%;}
+.span2 {width:16.6666%;}
+.span1 {width:8.3333%;}
+
+.uploadWrap {
+	margin-top: 15px;
+}
+
+.inputFileWrap {
+	background-color: #e3e0e0;
+}
+
+.inputFile {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+}
+
+label {
+	color: #717575;
+	width: 100%;
+	font-size: 1rem;
+	font-weight: 700;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	cursor: pointer;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	padding: 2.625rem 1.25rem;
+	height: 200px;
+}
+
+label figure {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #7eafe1;
+	display: block;
+	padding: 20px;
+	margin: 0 auto 10px;
+}
+label svg {
+	width: 80%;
+	height: 80%;
+	fill: #f1e5e6;
+	vertical-align: middle;
+}
+
+.image_preview {
+	background-size: cover !important;
+	height: 200px;
+	position: relative;
+	border: 1px solid #ccc;
+}
+
+.uploadBtnWrap {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	background: #eee;
+	padding: 25px 50px;
+	z-index: 10;
+	display: none;
+}
+.uploadBtn {
+	background: #7eafe1;
+	color: #fff;
+	padding: 20px;
+	border: 0px;
+	border-radius: 6px;
+	font-size: 16px;
+	box-shadow: 0px 0px 2px 2px #ccc;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
